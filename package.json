@@ -29,12 +29,16 @@
         "**/*": "prettier --write --ignore-unknown"
     },
     "dependencies": {
+        "@iptv/xtream-api": "^1.4.1",
         "@radix-ui/react-slot": "^1.2.0",
         "@radix-ui/react-tooltip": "^1.2.8",
         "@tailwindcss/vite": "^4.1.16",
         "@tauri-apps/api": "^2.9.0",
+        "@tauri-apps/plugin-http": "^2.5.4",
         "@tauri-apps/plugin-process": "^2.3.1",
         "@tauri-apps/plugin-shell": "^2.3.3",
+        "@tauri-apps/plugin-sql": "^2.3.1",
+        "@vidstack/react": "^0.6.15",
         "class-variance-authority": "^0.7.1",
         "clsx": "^2.1.1",
         "lucide-react": "^0.552.0",
@@ -44,7 +48,8 @@
         "react-router": "^7.9.5",
         "tailwind-merge": "^3.3.1",
         "tailwindcss-animate": "^1.0.7",
-        "zod": "^4.1.12"
+        "zod": "^4.1.12",
+        "zustand": "^5.0.8"
     },
     "devDependencies": {
         "@eslint/js": "^9.39.0",

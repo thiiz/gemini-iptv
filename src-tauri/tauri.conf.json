@@ -1,4 +1,8 @@
 {
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "StreamHub",
+  "version": "1.0.0",
+  "identifier": "com.streamhub.app",
   "build": {
     "beforeDevCommand": "bun dev",
     "beforeBuildCommand": "bun build",
@@ -16,22 +20,18 @@
       "icons/icon.ico"
     ]
   },
-  "productName": "tauri-app",
-  "mainBinaryName": "tauri-app",
-  "version": "0.1.0",
-  "identifier": "com.tauri.app",
-  "plugins": {},
   "app": {
-    "security": {
-      "csp": null
-    },
     "windows": [
       {
-        "title": "Tauri App",
-        "width": 800,
-        "height": 600,
-        "useHttpsScheme": true
+        "title": "StreamHub",
+        "width": 1200,
+        "height": 800,
+        "resizable": true,
+        "fullscreen": false
       }
-    ]
+    ],
+    "security": {
+      "csp": null
+    }
   }
 }
